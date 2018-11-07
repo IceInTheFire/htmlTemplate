@@ -161,9 +161,9 @@ gulp.task('watch', function () {
     //     "!src/content/images/*",
     //     "src/lib/**"
     // ], ['move']);
-    contentWatcher.on('change', function (event) {
-        console.log('File ' + event.path + ' was ' + event.type + ', running tasks...');
-    });
+    //contentWatcher.on('change', function (event) {
+    //    console.log('File ' + event.path + ' was ' + event.type + ', running tasks...');
+    //});
 });
 gulp.task("default",['htmlmin']);
 gulp.task("lib",['move','imgmin']);
