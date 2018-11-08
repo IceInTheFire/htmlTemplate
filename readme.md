@@ -23,6 +23,3 @@ gulp build			是gulp和gulp lib的集合版本。
 使用之前，可先把模板里的index.html页面去掉
 ```
 
-#### 其他零配置打包工具推荐
-
-parcel：http://www.css88.com/doc/parcel/
