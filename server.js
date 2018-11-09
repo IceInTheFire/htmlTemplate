@@ -6,7 +6,9 @@ app.use(compress());           //配合nginx做gzip压缩  express4以上写法
 app.use('/', express.static('./dist'));
 
 app.get("*",function(req, res, next){
-    res.redirect('/views' + req.path);
+	if(req.path.indexOf("favicon.ico") == -1) {
+		res.redirect('/views' + req.path);	
+	}
 })
 
 app.listen(9092, () => {
