@@ -1,9 +1,26 @@
+#### 说明
+
+```
+这个是普通html页面压缩的模板
+平时，我们写一个简单的html页面，这个页面引入了js和css。
+
+但是，写完后，我们的文件肯定不是压缩版本的。在服务器上就会造成很大的浪费。
+
+我这个模板就是搭配gulp和node，实时压缩文件，生成静态文件，并处理缓存问题。
+```
+
+#### 案例地址（可看源码，清一色全是压缩文件）
+
+http://www.yueqingfang.cn/htmlTemplate/views/
+
+http://www.yueqingfang.cn/htmlTemplate/views/index2.html
+
 #### 先执行这三个命令
 
 ```
 yarn install   下载依赖
 gulp build     生成dist文件
-npm run server  开启node服务   
+npm run server  开启node服务   端口9092
 ```
 
 #### 简单页面压缩命令
