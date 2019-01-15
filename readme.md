@@ -42,7 +42,7 @@ gulp build			是gulp和gulp lib的集合版本。
 
 ### 快捷试用(不用clone，直接npm全局下载binghuo)
 
-#####[冰火介绍](https://www.cnblogs.com/huoan/p/node.html)
+##### [冰火介绍](https://www.cnblogs.com/huoan/p/node.html)
 
 ```
 npm install -g binghuo
