@@ -40,3 +40,13 @@ gulp build			是gulp和gulp lib的集合版本。
 使用之前，可先把模板里的index.html页面去掉
 ```
 
+### 快捷试用(不用clone，直接npm全局下载binghuo)
+
+#####[冰火介绍](https://www.cnblogs.com/huoan/p/node.html)
+
+```
+npm install -g binghuo
+binghuo -v
+binghuo init test　　　　　　　　　　　　//在当前目录下载文件夹为test的html压缩模板 
+```
+
